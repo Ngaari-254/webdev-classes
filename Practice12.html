@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Practice 12</title>
+
+    <style>
+      .header {
+        display: flex;
+        background-color: rgb(177, 63, 177);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: roboto, sans-serif;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+      }
+      .home {
+        color: white;
+        font-size: 13px;
+      }
+      .middle-section {
+        display: flex;
+        flex: 1;
+        justify-content: left;
+      }
+      .search-area {
+        border-radius: 12px;
+        border: none;
+        padding-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        flex: 1;
+        font-size: 12px;
+        width: 0;
+      }
+      .download-button {
+        background-color: rgb(177, 63, 177);
+        color: white;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 12px;
+      }
+      .profile {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+      }
+      .image {
+        width: 100%;
+        display: flex;
+        border-radius: 25px;
+      }
+      .right-side-bar {
+        position: fixed;
+        margin-top: 60px;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(228, 224, 231);
+        right: 0;
+        width: 108px;
+      }
+      .mainpage {
+        background-color: white;
+        margin-right: 100px;
+        height: 1000px;
+        padding-left: 10px;
+        margin-top: 60px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+       
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(236, 234, 236)">
+    <div class="header">
+      <div class="home">Home</div>
+      <div class="middle-section">
+        <input class="search-area" type="search" placeholder="Search" />
+      </div>
+      <div class="download">
+        <button class="download-button">Join</button>
+      </div>
+      <div class="profile">
+        <img class="image" src="Thumbnails/Black and White.jpg" alt="" />
+      </div>
+    </div>
+    <div class="right-side-bar">
+      <a href="">About Us</a>
+      <p><a href="">Vision</a></p>
+    </p><a href="">Achievements</a>
+    </div>
+    <div class="mainpage">
+      <h1 style="text-align: center">My Website</h1>
+      <h2>Introduction to Web Development</h2>
+      <table>
+        <tr>
+          <th>Timeline</th>
+        </tr>
+        <tr>
+          <th>Task</th>
+          <th>Start</th>
+          <th>Finish</th>
+        </tr>
+        <tr>
+          <td>HTML & CSS</td>
+          <td>April 2023</td>
+          <td>May 2023</td>
+        </tr>
+        <tr>
+          <td>Java Script</td>
+          <td>May 2023</td>
+          <td>June 2023</td>
+        </tr>
+        <tr>
+          <td>Practice Projects</td>
+          <td>July 2023</td>
+          <td>August 2023</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

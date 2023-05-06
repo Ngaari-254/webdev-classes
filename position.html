@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice</title>
+  </head>
+  <body style="height: 3000px; padding-left: 80px; padding-top: 60px">
+    <div
+      style="
+        background-color: black;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        color: white;
+        z-index: 100;
+      "
+    >
+      header
+    </div>
+    <div
+      style="
+        background-color: green;
+        position: fixed;
+        bottom: 0px;
+        top: 50px;
+        left: 0px;
+        width: 82px;
+        color: white;
+      "
+    >
+      Side Bar
+      <div
+      style="
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        background-color: red;
+        color: white;
+        z-index: 2;
+      "    
+    >  <button>X</button> 
+    </div>
+    </div>
+    <div
+      style="
+        right: 10px;
+        top: 60px;
+        position: absolute;
+        background-color: red;
+        color: white;
+        z-index: 2;
+      "
+    >
+      absolute
+    </div>
+    <div
+      style="
+        background-color: lightblue;
+        position: static;
+        height: 200px;
+        width: 200px;
+      "
+    >
+      Div1
+    </div>
+    <div style=" position: relative; background-color: lightpink; height: 200px; width: 200px">
+      Div2
+      <div
+      style="
+        
+        position: absolute;
+        background-color: rgb(12, 12, 12);
+        color: white;
+        bottom: 10px;
+        right: 10px;
+       
+      "    
+    >  5:00 
+    </div>
+    
+</html>

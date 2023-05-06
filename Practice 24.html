@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Excercise</title>
+    <style>
+      .Messages {
+        margin-bottom: 5px;
+        height: 100%;
+        font-size: 13px;
+        line-height: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-content: start;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: bold;
+      }
+      .not-bar {
+        background-color: rgb(30, 124, 231);
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+        padding-top: 1px;
+        color: white;
+        width: 15px;
+        text-align: center;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      12(a)
+      <div style="display: flex; flex-direction: row">
+        <div style="background-color: lightblue; width: 200px">200px</div>
+        <div style="background-color: lightpink; width: 75px">75px</div>
+      </div>
+    </div>
+    <div>
+      12(b)
+      <div style="display: flex">
+        <div style="background-color: lightblue; width: 50px">Item 1</div>
+        <div style="background-color: lightpink; flex: 1">Item 2</div>
+        <div style="background-color: lightblue; width: 75px">Item 3</div>
+      </div>
+    </div>
+    <div>
+      12(c)
+      <div
+        style="
+          border: solid;
+          display: flex;
+          justify-content: space-between;
+          height: 50px;
+          align-items: end;
+        "
+      >
+        <div style="background-color: lightpink">Item 1</div>
+        <div style="background-color: lightpink">Item 2</div>
+        <div style="background-color: lightpink">Item 3</div>
+        <div style="background-color: lightpink">Item 4</div>
+      </div>
+    </div>
+    <div>
+      12(e)
+      <div
+        style="
+          border: solid;
+          border-radius: 8px;
+          border-width: 2px;
+          width: 300px;
+          border-color: rgb(197, 195, 195);
+        "
+      >
+        <div class="Messages" style="margin-top: 5px">
+          <p>Home</p>
+          <div class="not-bar"><p>3</p></div>
+        </div>
+        <div class="Messages">
+          <p>Notifications</p>
+          <div class="not-bar"><p>3</p></div>
+        </div>
+        <div class="Messages">
+          <p>Messages</p>
+          <div class="not-bar"><p>14</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
